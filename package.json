@@ -1,0 +1,30 @@
+{
+  "name": "d3-pub-sub-chords",
+  "version": "0.0.0",
+  "description": "A d3 layout and sample graph for visualizing connections between components over named channels",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "keywords": [
+    "d3 layout microservices visualization"
+  ],
+  "main": "d3_pub_sub_chords",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/d3-pub-sub-chords.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/d3-pub-sub-chords",
+  "bugs": "https://github.com/hurrymaplelad/d3-pub-sub-chords/issues",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.11.1",
+    "d3": "^3.5.16",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "jshint *.js && mocha"
+  }
+}
